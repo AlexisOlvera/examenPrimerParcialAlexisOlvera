@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cecyt9.alexisolveramendoza.calculadoraalexisolvera">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main3Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity" />
+        <activity android:name=".enviaMail" />
+        <activity android:name=".Practicas" />
+        <activity android:name=".navegador" />
+        <activity android:name=".imagen" />
+        <activity android:name=".gato" />
+        <activity android:name=".conecta4" />
+        <activity android:name=".memorama"></activity>
+        <activity android:name=".Actividad2"></activity>
+        <activity android:name=".intentions"></activity>
+        <activity android:name=".res"></activity>
+
+    </application>
+
+</manifest>
